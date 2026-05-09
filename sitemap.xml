@@ -1,16 +1,28 @@
 ---
 layout: null
-sitemap:
-  exclude: 'yes'
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for post in site.posts %}  <url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% for post in site.posts %}
+  <url>
     <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-{% endfor %}{% for page in site.pages %}{% unless page.sitemap.exclude == "yes" or page.url contains "404" or page.url contains "sitemap" %}  <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url | remove: "index.html" }}</loc>
-    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+  {% endfor %}
+  {% for page in site.pages %}
+    {% if page.sitemap != false and page.url != '/sitemap.xml' %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
-{% endunless %}{% endfor %}</urlset>
+    {% endif %}
+  {% endfor %}
+</urlset>
