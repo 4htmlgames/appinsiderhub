@@ -3,11 +3,8 @@ title: AppInsiderHub
 email: contact@appinsiderhub.com
 description: >-
   The hottest updates from the app world, ASO strategies, developer insights, and real-time crisis tracking applications.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://appinsiderhub.com" # Production URL (update this with your actual domain)
-
-# Local development URL (uncomment for local testing)
-# url: "http://localhost:4000"
+baseurl: "/appinsiderhub" # GitHub Pages subpath
+url: "https://4htmlgames.github.io" # GitHub Pages URL
 
 # Social links
 twitter_username: appinsiderhub

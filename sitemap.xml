@@ -9,7 +9,7 @@ layout: null
   <!-- Blog Posts - High Priority -->
   {% for post in site.posts %}
   <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
     {% if post.last_modified_at %}
     <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
     {% else %}
@@ -30,7 +30,7 @@ layout: null
   {% for page in site.pages %}
     {% if page.url != '/sitemap.xml' and page.url != '/feed.xml' and page.url != '/404.html' %}
     <url>
-      <loc>{{ site.url }}{{ page.url }}</loc>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -40,21 +40,21 @@ layout: null
   
   <!-- Category Pages -->
   <url>
-    <loc>{{ site.url }}/earthquake/</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/earthquake/</loc>
     <lastmod>2026-05-09T11:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>{{ site.url }}/local-alerts/</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/local-alerts/</loc>
     <lastmod>2026-05-09T12:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>{{ site.url }}/app-insights/</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/app-insights/</loc>
     <lastmod>2026-05-09T10:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
