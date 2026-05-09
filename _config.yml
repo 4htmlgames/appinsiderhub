@@ -1,0 +1,64 @@
+# Site settings
+title: AppInsiderHub
+email: contact@appinsiderhub.com
+description: >-
+  The hottest updates from the app world, ASO strategies, developer insights, and real-time crisis tracking applications.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://appinsiderhub.com" # Production URL (update this with your actual domain)
+
+# Local development URL (uncomment for local testing)
+# url: "http://localhost:4000"
+
+# Social links
+twitter_username: appinsiderhub
+github_username: appinsiderhub
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Permalink style
+permalink: /:categories/:title/
+
+# Pagination
+paginate: 10
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "AppInsiderHub"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Collections
+collections:
+  categories:
+    output: true
+
+# Analytics (add your tracking ID)
+# google_analytics: UA-XXXXXXXX-X

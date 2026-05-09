@@ -1,0 +1,22 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <h3 class="site-title">AppInsider<span>Hub</span></h3>
+        <p style="color: var(--muted); margin-top: 10px; font-size: 0.95rem;">
+          {{ site.description | escape }}
+        </p>
+      </div>
+      <div class="footer-col" style="text-align: right;">
+        <p class="feed-subscribe" style="margin-top: 15px;">
+          <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
+            <span>Subscribe via RSS</span>
+          </a>
+        </p>
+        <p style="color: var(--muted); margin-top: 20px; font-size: 0.85rem;">
+          &copy; {{ 'now' | date: "%Y" }} AppInsiderHub. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
