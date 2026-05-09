@@ -1,0 +1,21 @@
+🚀 GITHUB PAGES AKTİF ETME
+
+1. Bu linke git:
+   https://github.com/4htmlgames/appinsiderhub/settings/pages
+
+2. "Source" bölümünde:
+   - "GitHub Actions" seç
+
+3. Kaydet
+
+4. 2-3 dakika bekle
+
+5. Site hazır:
+   https://4htmlgames.github.io/appinsiderhub/
+
+6. Yazılar:
+   https://4htmlgames.github.io/appinsiderhub/earthquake/japan-earthquake-today-tsunami-warning/
+   https://4htmlgames.github.io/appinsiderhub/local-alerts/san-diego-earthquake-alerts/
+   https://4htmlgames.github.io/appinsiderhub/app-insights/world-monitor-real-time-crisis-tracker/
+
+✅ TAMAMLANDI!
