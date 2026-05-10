@@ -2,7 +2,7 @@
 layout: post
 title: "San Diego Earthquake Alerts: Real-Time USGS Tracking & Tsunami Warning System"
 date: 2026-05-09 12:00:00 +0300
-categories: [Local Alerts, Earthquake Tracking]
+categories: [local-alerts, earthquake-tracking]
 tags: [san diego earthquake, earthquake alerts, usgs data, tsunami alerts, live crisis map, rose canyon fault, seismic monitoring, real-time alerts]
 description: "San Diego earthquake alerts in real time. World Monitor tracks live USGS data, tsunami warnings, storm & flood alerts instantly on your iPhone. Free download!"
 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicH31RdeFqggqfXBcfrKOjmZYqxsIsmIpQJngQl_PEqeCsGIMnc_ZlMwreBX1qQaCumSFSQWNGbjNSGyIc7NUbCrgNPVHJeJCrKpej2p1pA-kq2v8QsXdlrQ0Go6mg1ep288eLwovoBNX-_WtfQ-AwlsFuMTnPU09NClrMny7yea5Ykf01RNY19QetxU13/s320/4.png"

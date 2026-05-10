@@ -2,7 +2,7 @@
 layout: post
 title: "Japan Earthquake Today: Real-Time Tsunami Warning Alerts & Live Crisis Tracking"
 date: 2026-05-09 11:00:00 +0300
-categories: [Earthquake, Tsunami Warning]
+categories: [earthquake, tsunami-warning]
 tags: [japan earthquake today, tsunami warning, usgs earthquake data, real-time alerts, live crisis map, earthquake tracker, seismic activity]
 description: "Live Japan earthquake alerts with real-time tsunami warnings. Track USGS seismic data instantly on World Monitor app. Download free for iPhone."
 image: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/3f/35/a73f3586-9b38-fae2-10d2-7eaa5947b761/Placeholder.mill/230x0w.jpg"

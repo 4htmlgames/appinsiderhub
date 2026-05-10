@@ -2,7 +2,7 @@
 layout: post
 title: "World Monitor: Real-Time Crisis & Breaking News Tracker App for iPhone"
 date: 2026-05-09 10:00:00 +0300
-categories: [App Insights, Crisis Tracking]
+categories: [app-insights, crisis-tracking]
 tags: [world monitor, breaking news, earthquake tracker, tsunami alerts, live map, crisis tracking, real-time alerts, usgs data, conflict monitor]
 description: "World Monitor tracks real-time breaking news, conflicts, tsunami, volcano & storm alerts on a live map. Download free for iPhone and never miss a crisis update."
 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLJXgM4Jls-aJKUTQxNxuOyDgSLIwgI7p11W95j3JixOwPFADZ2_U5UcLHRHIx0QTmbVnOc_eixBfHRoWQnpuFl8GBVLRz29GRy3CFg7raNPg_Q1VqfFFOOFBd-Y6As5PGNcKhitKXn7geWT9bI3UwrxN0vwN_QdAtFQ8kl8v_8OkhGZOiWvcZ-x3pbO3T/s320/1.png"

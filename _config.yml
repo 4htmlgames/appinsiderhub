@@ -4,7 +4,7 @@ email: contact@appinsiderhub.com
 description: >-
   The hottest updates from the app world, ASO strategies, developer insights, and real-time crisis tracking applications.
 baseurl: "/appinsiderhub" # GitHub Pages subpath
-url: "https://4htmlgames.github.io" # GitHub Pages URL
+url: "https://4htmlgames.github.io/appinsiderhub" # Full GitHub Pages URL with baseurl
 
 # Social links
 twitter_username: appinsiderhub
