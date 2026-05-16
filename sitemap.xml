@@ -1,34 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Homepage -->
-  <url>
-    <loc>https://4htmlgames.github.io/appinsiderhub/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <!-- Blog Posts -->
-  <url>
-    <loc>https://4htmlgames.github.io/appinsiderhub/world-monitor-real-time-crisis-tracker/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://4htmlgames.github.io/appinsiderhub/japan-earthquake-today-tsunami-warning/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://4htmlgames.github.io/appinsiderhub/san-diego-earthquake-alerts/</loc>
-    <lastmod>2026-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
+<url>
+<loc>https://4htmlgames.github.io/appinsiderhub/</loc>
+<lastmod>2026-05-16</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://4htmlgames.github.io/appinsiderhub/world-monitor-real-time-crisis-tracker/</loc>
+<lastmod>2026-05-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://4htmlgames.github.io/appinsiderhub/japan-earthquake-today-tsunami-warning/</loc>
+<lastmod>2026-05-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://4htmlgames.github.io/appinsiderhub/san-diego-earthquake-alerts/</loc>
+<lastmod>2026-05-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 </urlset>
