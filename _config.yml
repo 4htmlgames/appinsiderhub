@@ -15,7 +15,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Permalink style - simplified for GitHub Pages
 permalink: /:title/
