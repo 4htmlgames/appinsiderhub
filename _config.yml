@@ -17,7 +17,7 @@ plugins:
   - jekyll-seo-tag
 
 # Permalink style - simplified for GitHub Pages
-permalink: /:title/
+permalink: /:categories/:title/
 
 # Pagination
 paginate: 10
