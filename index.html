@@ -12,7 +12,7 @@ layout: default
 <div class="wrapper">
   <div class="post-grid">
     {% for post in site.posts %}
-      <a href="{{ post.url | relative_url }}" class="post-card">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-card">
         {% if post.image %}
           <img src="{{ post.image }}" alt="{{ post.title }}" class="post-card-img" loading="lazy">
         {% else %}
@@ -34,16 +34,16 @@ layout: default
   </div>
 
   <!-- Pagination links -->
-  {% if site.paginator.total_pages > 1 %}
+  {% if paginator.total_pages > 1 %}
   <div class="pagination">
-    {% if site.paginator.previous_page %}
-      <a href="{{ site.paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
     {% else %}
       <span>&laquo; Previous</span>
     {% endif %}
 
-    {% for page in (1..site.paginator.total_pages) %}
-      {% if page == site.paginator.page %}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
         <em>{{ page }}</em>
       {% elsif page == 1 %}
         <a href="{{ site.baseurl }}/">{{ page }}</a>
@@ -52,8 +52,8 @@ layout: default
       {% endif %}
     {% endfor %}
 
-    {% if site.paginator.next_page %}
-      <a href="{{ site.paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
     {% else %}
       <span>Next &raquo;</span>
     {% endif %}
